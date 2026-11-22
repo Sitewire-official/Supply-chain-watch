@@ -1,10 +1,13 @@
 {
  "model": "openai/gpt-4.1-mini",
- "daily_cap": 15,
- "max_age_days": 14,
- "expiry_days": 30,
+ "daily_cap": 30,
+ "max_age_days": 120,
+ "expiry_days": 90,
  "min_stories": 5,
- "extended_expiry_days": 60,
+ "extended_expiry_days": 180,
+ "ai_check_review": true,
+ "ai_delay": 5,
+ "markets": ["en-GB", "en-US"],
  "companies": [
   {"name":"Pladis","strong":["Pladis","McVitie's","McVitie’s"],"weak":["Jacob's","Jacob’s","Ülker","Godiva","Biscuiti"]},
   {"name":"Reckitt","strong":["Reckitt","Reckitt Benckiser","Dettol","Durex","Lysol","Nurofen"],"weak":["Finish","Vanish"]}
@@ -15,7 +18,7 @@
   {"name":"cocoa","label":"Cocoa","keywords":["cocoa","cacao"]},
   {"name":"latex","label":"Latex","keywords":["latex","rubber"]}
  ],
- "extra_terms": ["sustainability","ESG","supply chain","results"],
+ "extra_terms": ["sustainability","ESG","supply chain","results","deforestation","human rights","child labour","sourcing","packaging","price","earnings","emissions"],
  "topic_keywords": ["esg","sustainab","deforestation","human rights","child labour","supply chain","emissions","net zero","earnings","profit","revenue"],
  "exclude_phrases": ["Lady Godiva"],
  "source_domains": ["reliefweb.int","ohchr.org","who.int","unicef.org","wfp.org","unep.org","ipcc.ch","hrw.org","amnesty.org","crisisgroup.org","globalwitness.org","monitor.civicus.org","transparency.org","oxfam.org","savethechildren.net","globalforestwatch.org","odi.org","mongabay.com","news.trust.org","devex.com","ft.com","economist.com","reuters.com"],
