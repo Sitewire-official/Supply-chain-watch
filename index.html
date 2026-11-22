@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Supply Chain Watch</title>
+<style>
+:root{--bg:#faf8f4;--card:#fff;--ink:#1d2421;--mute:#5d6762;--line:#e4e0d6;--accent:#1f5c4a;--accent-ink:#fff;--new:#b4530a;--dev:#1d5fa8}
+@media (prefers-color-scheme:dark){:root{--bg:#121715;--card:#1b221f;--ink:#e9eeeb;--mute:#9aa7a1;--line:#2c3631;--accent:#58b396;--accent-ink:#0c1512;--new:#f0a05a;--dev:#7db3ee}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Georgia,"Times New Roman",serif;padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header{padding:28px 0 8px}
+h1{font-size:1.9rem;margin:0;letter-spacing:-.01em}
+.ui,.sub,.lbl,.meta,.tags,.src,details,footer,.empty,button{font-family:system-ui,-apple-system,sans-serif}
+.sub{color:var(--mute);font-size:.9rem;margin:4px 0 0}
+.tabs,.chips{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.tabs{border-bottom:1px solid var(--line);padding-bottom:12px}
+button{font-weight:600;font-size:.85rem;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:7px 14px;border-radius:999px;cursor:pointer}
+.chips button{font-weight:500;font-size:.8rem;padding:5px 12px}
+button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.lbl{font-weight:600;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);margin-top:10px}
+.meta{display:flex;justify-content:space-between;font-size:.82rem;color:var(--mute);margin:14px 0 4px}
+article{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:14px 0}
+article img{width:100%;max-height:260px;object-fit:cover;border-radius:8px;margin-bottom:10px}
+article h2{font-size:1.25rem;line-height:1.3;margin:6px 0 8px}
+.tags{display:flex;gap:6px;flex-wrap:wrap;font-weight:600;font-size:.7rem}
+.tag{padding:2px 8px;border-radius:5px;border:1px solid var(--line);color:var(--mute)}
+.tag.co{color:var(--accent);border-color:var(--accent)}
+.tag.new{color:var(--new);border-color:var(--new)}
+.tag.dev{color:var(--dev);border-color:var(--dev)}
+.sum p{margin:.6em 0}
+.src{font-size:.85rem;margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
+.src a{color:var(--accent)}
+.src ul{list-style:none;padding:0;margin:6px 0 0}
+.src li{margin:4px 0}
+details{font-size:.82rem;color:var(--mute);margin-top:10px}
+summary{cursor:pointer}
+.empty{text-align:center;color:var(--mute);padding:40px 0}
+footer{font-size:.8rem;line-height:1.5;color:var(--mute);border-top:1px solid var(--line);margin-top:32px;padding:18px 0 40px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Supply Chain Watch</h1>
+<p class="sub">Pladis &amp; Reckitt: commercial, sustainability and commodity news. Refreshed every 24 hours.</p>
+</header>
+<div class="tabs" id="cats" role="group" aria-label="Category"></div>
+<div class="lbl">Company</div><div class="chips" id="cos" role="group" aria-label="Company"></div>
+<div class="lbl">Raw material</div><div class="chips" id="mats" role="group" aria-label="Raw material"></div>
+<div class="meta"><span id="count"></span><span id="upd"></span></div>
+<main id="list"><div class="empty">Loading…</div></main>
+<footer>
+<p><strong>How it works.</strong> Once a day we collect articles and NGO reports from outlets worldwide. Each must pass strict matching checks before it appears: the company or an approved brand name has to feature in the headline or opening paragraphs, the story has to relate to a tracked topic, and an automated check confirms it is substantively about the company. Borderline items are held back for human review. Stories stay up while coverage continues, then expire after a period without updates.</p>
+<p>Headlines, snippets and images belong to their publishers, and this site links to the original articles. Summaries, tags and relevance checks are generated automatically by AI and can be wrong, so always check the original reports.</p>
+</footer>
+</div>
+<script>
+var CATS=["All","Business & Commercial","Economic","Sustainability","ESG"],COS=["All","Pladis","Reckitt"],MATS=["All","Palm oil","Pulp & paper","Cocoa","Latex"];
+var st={cat:"All",co:"All",mat:"All"},DATA={updated:null,stories:[]},H=3600000;
+function esc(s){var d=document.createElement("div");d.textContent=s==null?"":s;return d.innerHTML}
+function safeUrl(u){return /^https?:\/\//i.test(u||"")?u:"#"}
+function when(t){var h=Math.round((Date.now()-new Date(t))/H);return h<1?"just now":h<48?h+"h ago":Math.round(h/24)+" days ago"}
+function btns(id,items,key){var el=document.getElementById(id);el.innerHTML="";items.forEach(function(v){var b=document.createElement("button");b.textContent=v;b.setAttribute("aria-pressed",st[key]===v);b.onclick=function(){st[key]=v;render()};el.appendChild(b)})}
+function render(){
+ btns("cats",CATS,"cat");btns("cos",COS,"co");btns("mats",MATS,"mat");
+ var rows=DATA.stories.filter(function(s){return(st.cat==="All"||s.categories.indexOf(st.cat)>-1)&&(st.co==="All"||s.companies.indexOf(st.co)>-1)&&(st.mat==="All"||s.materials.indexOf(st.mat)>-1)}).sort(function(a,b){return new Date(b.updated)-new Date(a.updated)});
+ document.getElementById("count").textContent=rows.length+(rows.length===1?" story":" stories");
+ document.getElementById("upd").textContent=DATA.updated?"Last refresh: "+new Date(DATA.updated).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short"}):"";
+ var out=document.getElementById("list");
+ if(!rows.length){out.innerHTML='<div class="empty">No stories to show yet. Stories appear after the daily refresh finds articles that pass our checks.</div>';return}
+ out.innerHTML=rows.map(function(s){
+  var isNew=Date.now()-new Date(s.first_seen)<48*H,isDev=s.sources.length>=3&&Date.now()-new Date(s.updated)<72*H;
+  var tags=(isNew?'<span class="tag new">NEW</span>':'')+(isDev?'<span class="tag dev">DEVELOPING</span>':'')+s.companies.map(function(c){return'<span class="tag co">'+esc(c)+'</span>'}).join("")+s.categories.concat(s.materials).map(function(c){return'<span class="tag">'+esc(c)+'</span>'}).join("");
+  return'<article>'+(s.image?'<img src="'+esc(safeUrl(s.image))+'" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">':'')
+  +'<div class="tags">'+tags+'</div><h2>'+esc(s.title)+'</h2><div class="sum">'+s.summary.map(function(p){return'<p>'+esc(p)+'</p>'}).join("")+'</div>'
+  +'<div class="src"><strong>Sources ('+s.sources.length+')</strong><ul>'+s.sources.map(function(x){return'<li><a href="'+esc(safeUrl(x.url))+'" target="_blank" rel="noopener noreferrer">'+esc(x.name)+' ↗</a></li>'}).join("")+'</ul></div>'
+  +'<details><summary>Why is this here?</summary><p>'+esc(s.matched)+'. Summarised automatically; check the original reports.</p></details>'
+  +'<div class="meta" style="margin-bottom:0">Updated '+when(s.updated)+' · first seen '+when(s.first_seen)+'</div></article>'}).join("");
+}
+render();
+fetch("stories.json?t="+Date.now()).then(function(r){return r.json()}).then(function(d){DATA=d;render()}).catch(function(){document.getElementById("list").innerHTML='<div class="empty">Could not load stories.</div>'});
+</script>
+</body>
+</html>
