@@ -114,7 +114,7 @@ def pick_model():
                 print("configured model not found; using", i); return i
     return ids[0] if ids else CFG["model"]
 
-def ask(title, body, cos):
+def ask_github(title, body, cos):
     global MODEL
     if MODEL is None: MODEL = pick_model()
     payload = json.dumps({"model": MODEL, "temperature": 0.2, "messages": [
@@ -132,6 +132,32 @@ def ask(title, body, cos):
     if not m:
         raise RuntimeError("Model reply had no JSON: " + txt[:300])
     return json.loads(m.group(0))
+
+GEM = None
+def ask_gemini(title, body, cos):
+    global GEM
+    payload = json.dumps({"system_instruction": {"parts": [{"text": SYS}]},
+        "contents": [{"role": "user", "parts": [{"text": f"Company: {', '.join(cos)}\nTitle: {title}\nText: {body[:5000]}"}]}],
+        "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}})
+    for model in ([GEM] if GEM else CFG.get("gemini_models", ["gemini-3.6-flash", "gemini-2.5-flash"])):
+        r = subprocess.run(["curl", "-sS", "-m", "120", "-w", "\n%{http_code}", "-X", "POST",
+            "-H", "Content-Type: application/json", "-H", "x-goog-api-key: " + os.environ["GEMINI_API_KEY"],
+            "https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent" % model, "-d", "@-"],
+            input=payload, capture_output=True, text=True)
+        out, _, code = r.stdout.rpartition("\n")
+        if code == "200":
+            try: txt = json.loads(out)["candidates"][0]["content"]["parts"][0]["text"]
+            except Exception: raise RuntimeError("Gemini HTTP 200 but unexpected reply: " + out[:300])
+            m = re.search(r"\{.*\}", txt, re.S)
+            if not m: raise RuntimeError("Gemini reply had no JSON: " + txt[:300])
+            GEM = model
+            return json.loads(m.group(0))
+        print("Gemini model", model, "-> HTTP", code, out[:200].replace("\n", " "))
+        if code == "429": raise RuntimeError("Gemini rate limit reached (HTTP 429)")
+    raise RuntimeError("No Gemini model worked; see lines above")
+
+def ask(title, body, cos):
+    return ask_gemini(title, body, cos) if os.environ.get("GEMINI_API_KEY") else ask_github(title, body, cos)
 
 def toks(s): return set(re.findall(r"[a-z]{4,}", s.lower()))
 
