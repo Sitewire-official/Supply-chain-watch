@@ -25,13 +25,18 @@ def clean(s):
 def queries():
     q = []
     for co in CFG["companies"]:
-        terms = [m["name"] for m in CFG["materials"]] + CFG["extra_terms"]
-        for t in terms:
-            q.append(f'"{co["name"]}" {t}')
+        n = co["name"]
+        for t in [m["name"] for m in CFG["materials"]] + CFG["extra_terms"]:
+            q.append(f'"{n}" {t}')
         d = CFG["source_domains"]
         for i in range(0, len(d), 5):
-            q.append(f'"{co["name"]}" (' + " OR ".join("site:" + x for x in d[i:i+5]) + ")")
-    return ["https://www.bing.com/news/search?format=rss&mkt=en-GB&q=" + urllib.parse.quote(x) for x in q] + CFG["rss_feeds"]
+            q.append(f'"{n}" (' + " OR ".join("site:" + x for x in d[i:i+5]) + ")")
+        for al in co["strong"] + co["weak"]:
+            if al == n or "’" in al: continue
+            for t in ("sustainability", "sourcing", "supply chain"):
+                q.append(f'"{al}" "{n}" {t}' if al in co["weak"] else f'"{al}" {t}')
+    return ["https://www.bing.com/news/search?format=rss&mkt=%s&q=%s" % (m, urllib.parse.quote(x))
+            for m in CFG.get("markets", ["en-GB"]) for x in q] + CFG["rss_feeds"]
 
 def resolve(link):
     if "bing.com" in link:
@@ -170,39 +175,43 @@ def find_story(title, cos):
 cands = {}
 for u in queries():
     for c in read_feed(u): cands.setdefault(c["url"], c)
-    time.sleep(1)
+    time.sleep(1.5)
 print("candidates:", len(cands))
 
+known = {x["url"] for st in stories for x in st["sources"]}
 done = 0
 for url, c in cands.items():
-    if url in seen or (NOW - c["date"]).days > CFG["max_age_days"]: continue
+    if url in seen or url in known or (NOW - c["date"]).days > CFG["max_age_days"]: continue
     if done >= CFG["daily_cap"]: print("daily cap reached"); break
     body, img = article(url)
     body = body or c["snippet"]
     verdict, cos = classify(c["title"], body)
     if not verdict: seen.add(url); continue
-    if verdict == "review":
+    if verdict == "review" and not CFG.get("ai_check_review"):
         pending.append({"title": c["title"], "url": url, "source": c["source"], "companies": cos, "reason": "Company not in headline/opening"})
         seen.add(url); continue
     try: ai = ask(c["title"], body, cos)
     except Exception as e:
         print("AI FAILED (will retry next run):", e); continue
-    done += 1; seen.add(url)
+    done += 1; seen.add(url); time.sleep(CFG.get("ai_delay", 5))
     if not ai.get("about_company"):
         pending.append({"title": c["title"], "url": url, "source": c["source"], "companies": cos, "reason": "AI check: not substantively about company"}); continue
-    src = {"name": c["source"], "url": url, "date": c["date"].isoformat()}
+    when = c["date"].isoformat()
+    src = {"name": c["source"], "url": url, "date": when}
     cats = [x for x in ai.get("categories", []) if x in ["Business & Commercial", "Economic", "Sustainability", "ESG"]]
     mats = [x for x in ai.get("materials", []) if x in [m["label"] for m in CFG["materials"]]]
     s = find_story(c["title"], cos)
     paras = [p for p in ai.get("summary", []) if isinstance(p, str)]
+    why = (f"{', '.join(cos)} named in headline or opening paragraphs" if verdict == "publish"
+           else f"{', '.join(cos)} named in the article body (not the opening); confirmed by AI relevance check") + "; topic keywords found"
     if s:
-        s["sources"].append(src); s["updated"] = NOW.isoformat()
+        s["sources"].append(src); s["updated"] = max(s["updated"], when); known.add(url)
         s["categories"] = sorted(set(s["categories"]) | set(cats)); s["materials"] = sorted(set(s["materials"]) | set(mats))
-        if paras and len(s["summary"]) < 9: s["summary"].append("Update, " + NOW.strftime("%d %b") + ": " + paras[0])
+        if paras and len(s["summary"]) < 9: s["summary"].append("Update, " + c["date"].strftime("%d %b") + ": " + paras[0])
     else:
+        known.add(url)
         stories.append({"id": str(abs(hash(url)))[:10], "title": ai.get("headline") or c["title"], "companies": cos, "categories": cats, "materials": mats,
-            "summary": paras, "sources": [src], "image": img, "first_seen": NOW.isoformat(), "updated": NOW.isoformat(),
-            "matched": f"{', '.join(cos)} named in headline or opening paragraphs; topic keywords found; AI relevance check passed"})
+            "summary": paras, "sources": [src], "image": img, "first_seen": when, "updated": when, "matched": why})
 
 days = CFG["expiry_days"]
 if sum((NOW - datetime.fromisoformat(s["updated"])).days < days for s in stories) < CFG["min_stories"]:
