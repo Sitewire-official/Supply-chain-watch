@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T11:19:44.232756+00:00",
+ "updated": "2026-11-22T16:53:18.090721+00:00",
  "stories": [
   {
    "id": "8849709829",
@@ -139,6 +139,327 @@
    "first_seen": "2026-11-22T11:19:44.232756+00:00",
    "updated": "2026-11-22T11:19:44.232756+00:00",
    "matched": "Reckitt named in headline or opening paragraphs; topic keywords found; AI relevance check passed"
+  },
+  {
+   "id": "7207499681",
+   "title": "pladis Launches Second Global Accelerator Programme Targeting Sustainable Nutrition and Ingredient Innovation",
+   "companies": [
+    "Pladis"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Sustainability"
+   ],
+   "materials": [
+    "Cocoa"
+   ],
+   "summary": [
+    "Global snacking group pladis, the company behind brands including McVitie’s and Godiva, has launched its second global accelerator programme to collaborate with innovative food-tech start-ups. The initiative focuses on improving product nutrition and developing sustainable solutions in response to rising GLP-1 medication adoption and climate-related supply chain disruptions. Up to 12 selected start-ups will receive technical and operational guidance from pladis experts, with three to six candidates potentially progressing to pilot or co-development phases.",
+    "Participation in the programme is free, with applications open until January 15 and operations commencing in March. Pladis is targeting key innovation areas, including fermentation, enzymatic processing, sensory science, natural alternatives to additives, gut health, and functional ingredients. The initiative also seeks to solve challenges surrounding ingredient supply resilience, particularly regarding cocoa crops impacted by adverse weather conditions and disease.",
+    "The launch follows an initial accelerator scheme that engaged 12 start-ups supported by 37 mentors across pladis and Yıldız Holding. Technologies highlighted from the prior cohort included Zya's enzyme designed to convert sugar into fiber post-consumption, Fermtech's fermentation method converting food-industry by-products into a cocoa alternative, and Nuritas's use of artificial intelligence to identify bioactive plant peptides for functional food ingredients."
+   ],
+   "sources": [
+    {
+     "name": "Confectionery Production",
+     "url": "https://www.confectioneryproduction.com/news/60284/pladis-opens-second-global-accelerator-programme-seeking-innovative-start-ups/",
+     "date": "2026-11-16T01:51:00+00:00"
+    }
+   ],
+   "image": "https://www.confectioneryproduction.com/wp-content/uploads/pladis-3.jpg",
+   "first_seen": "2026-11-16T01:51:00+00:00",
+   "updated": "2026-11-16T01:51:00+00:00",
+   "matched": "Pladis named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "8655600907",
+   "title": "Pladis Expands China Market Presence with McVitie’s Flipz Pretzels Launch",
+   "companies": [
+    "Pladis"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "London-based snack manufacturer Pladis has launched McVitie's-branded Flipz pretzels in China as part of a strategy to expand its portfolio beyond biscuits and chocolate. The company identified China as one of its largest long-term growth opportunities for McVitie's as it aims to scale the brand into a £1bn ($1.35bn) global entity.",
+    "Chief Commercial Officer David Murray stated that the brand's future growth will rely on expanding into broader snacking categories and introducing new product formats to reach new consumers. Pladis currently sells Godiva chocolate and McVitie's biscuits in China, following a market diversification model similar to its deployments in Saudi Arabia and Egypt with products like McVitie's Joy.",
+    "A spokesperson for Pladis confirmed a multi-million-pound investment to support the brand's development in China, focusing on manufacturing, distribution, product development, e-commerce, and brand-building. The pretzel products debuted in August, though Pladis declined to share sales forecasts or current revenue figures.",
+    "Update, 07 Sep: Pladis has launched McVitie's-branded Flipz pretzels in China, marking an expansion beyond its existing biscuit and chocolate offerings in the country. The company identified China as a major long-term growth opportunity for McVitie's as it seeks to develop it into a £1bn ($1.35bn) global brand. Pladis is supporting the entry with a multi-million-pound investment spanning product development, manufacturing, distribution, e-commerce, and brand-building."
+   ],
+   "sources": [
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/small-business/articles/pladis-ramps-china-ambitions-mcvitie-102742719.html",
+     "date": "2026-09-08T03:28:00+00:00"
+    },
+    {
+     "name": "Just-Food",
+     "url": "https://www.just-food.com/news/pladis-china-flipz-pretzels-launch/",
+     "date": "2026-09-07T17:00:00+00:00"
+    }
+   ],
+   "image": "https://s.yimg.com/lo/mysterio/api/e380f1d0ad3be41d475c8c751fb1608fc68177848bbc9a643d3d6f86f8b0074e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fjust_food_692%2F655f46f4a7bb41b60d12287c978e1b64.jpg",
+   "first_seen": "2026-09-08T03:28:00+00:00",
+   "updated": "2026-09-08T03:28:00+00:00",
+   "matched": "Pladis named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "9520511205",
+   "title": "Pladis: McVitie’s owner sees profits tumble in year which ‘tested every part of the food industry’",
+   "companies": [
+    "Pladis"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "Pladis, the owner of biscuit brand McVitie’s, saw its profits tumble during a year described as having tested every part of the food industry.",
+    "The available text consists primarily of website metadata and code from the Yorkshire Post, offering minimal detailed coverage beyond the article's headline.",
+    "No further financial details, operational metrics, or executive statements are included in the provided text."
+   ],
+   "sources": [
+    {
+     "name": "The Yorkshire Post",
+     "url": "https://www.yorkshirepost.co.uk/business/pladis-mcvities-owner-sees-profits-tumble-in-year-which-tested-every-part-of-the-food-industry-9077783",
+     "date": "2026-09-17T03:11:00+00:00"
+    }
+   ],
+   "image": "https://www.yorkshirepost.co.uk/webimg/b25lY21zOmM0MjljMjRhLWU0MTQtNDlkMC1hMzhmLWZiMDJiYjlkMzk1ODo3NmIxNTdkYi0yYjZmLTRlZDAtYWZkZi0yMDNmYTlmMjljMGE=.jpg?width=1200&amp;auto=webp&amp;quality=75&amp;crop=3:2,smart&amp;trim=",
+   "first_seen": "2026-09-17T03:11:00+00:00",
+   "updated": "2026-09-17T03:11:00+00:00",
+   "matched": "Pladis named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "3450123135",
+   "title": "McVitie's maker secures SBTi validation for 2034 emissions goals",
+   "companies": [
+    "Pladis"
+   ],
+   "categories": [
+    "Sustainability",
+    "ESG"
+   ],
+   "materials": [],
+   "summary": [
+    "The food manufacturer behind McVitie's biscuits and Jacob's crackers has formally secured validation from the Science Based Targets initiative (SBTi) for its 2034 emissions targets.",
+    "As part of the validated climate goals, the company is aiming to achieve a 58.8 per cent reduction in its direct emissions by 2034.",
+    "The targets apply to the business behind well-known food brands, including Chocolate Digestives, Penguin bars, and Jacob's Cream Crackers."
+   ],
+   "sources": [
+    {
+     "name": "Business Green",
+     "url": "https://www.businessgreen.com/news/4537073/mcvities-maker-secures-sbti-validation-2034-emissions-goals?im_debug=mp%3Bim_debug%3D",
+     "date": "2026-10-09T04:19:00+00:00"
+    }
+   ],
+   "image": null,
+   "first_seen": "2026-10-09T04:19:00+00:00",
+   "updated": "2026-10-09T04:19:00+00:00",
+   "matched": "Pladis named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "7380714793",
+   "title": "McVitie’s owner Pladis sees profits fall but vows to continue its global investment after ‘resilient’ year",
+   "companies": [
+    "Pladis"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "McVitie’s and Jacob’s owner Pladis has pledged to maintain investments across its factories and brands despite experiencing a decline in profits. The company announced its intention to move forward with global investments following what it characterized as a resilient year.",
+    "The decrease in profitability occurs against a backdrop of ongoing economic challenges. Pladis noted that persistent inflation and economic uncertainty continue to impact the business landscape.",
+    "Despite these ongoing financial and macroeconomic pressures, the global company remains committed to funding its operational facilities and supporting its product brands."
+   ],
+   "sources": [
+    {
+     "name": "MSN",
+     "url": "https://www.msn.com/en-gb/money/general/mcvitie-s-owner-pladis-sees-profits-fall-but-vows-to-continue-its-global-investment-after-resilient-year/ar-AA2cqx21",
+     "date": "2026-09-17T05:12:00+00:00"
+    }
+   ],
+   "image": null,
+   "first_seen": "2026-09-17T05:12:00+00:00",
+   "updated": "2026-09-17T05:12:00+00:00",
+   "matched": "Pladis named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "2921768144",
+   "title": "McVitie’s owner pladis grows revenue to £3.3bn as branded portfolio proves resilient",
+   "companies": [
+    "Pladis"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic",
+    "Sustainability",
+    "ESG"
+   ],
+   "materials": [],
+   "summary": [
+    "Global snacking company pladis published its Annual Report for the year ended December 31, 2025, reporting a 1.2% increase in revenue to £3.272 billion, compared with £3.232 billion in 2024. Branded sales represented approximately 90% of total revenue. Facing an environment shaped by commodity inflation, currency volatility, and macroeconomic headwinds, the company recorded an EBITDA of £473.7 million (down from £494.5 million in 2024) and an operating profit of £301.6 million (down from £344.4 million). Higher working capital requirements impacted cash generation, leaving net debt at £1.028 billion at year end.",
+    "During 2025, pladis allocated £100.5 million in capital expenditure to enhance capacity, productivity, efficiency, and operational resilience. The company simplified its manufacturing footprint in the Americas and progressed several multi-year facility investments. These included a £68 million programme across UK bakeries producing brands such as McVitie’s, Jacob’s, and Carr’s, an investment in its Cairo facility that reached £8.6 million by the end of 2025, and a €5.4 million investment in a new Mini BN line in Vertou, France.",
+    "Innovation and commercial expansion continued across key geographic markets. Products launched over the previous three years accounted for 12% of Ülker’s annual snacking revenue in Türkiye in 2025, while pladis selected 12 start-ups for its first global Accelerator Programme and progressed plans for McVitie’s expansion in China. Additionally, pladis developed its new global sustainability strategy, titled 'Happy People, Happy Planet', during 2025. Launched in April 2026, the framework targets five areas: colleagues and communities, responsible snacking, carbon, packaging and waste, and responsible sourcing."
+   ],
+   "sources": [
+    {
+     "name": "Retail Times",
+     "url": "https://retailtimes.co.uk/mcvities-owner-pladis-grows-revenue-to-3-3bn-as-branded-portfolio-proves-resilient/",
+     "date": "2026-09-17T03:40:00+00:00"
+    }
+   ],
+   "image": "https://retailtimes.co.uk/wp-content/uploads/2026/09/pladis-annual-results_-1024x683.jpg",
+   "first_seen": "2026-09-17T03:40:00+00:00",
+   "updated": "2026-09-17T03:40:00+00:00",
+   "matched": "Pladis named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "7958618531",
+   "title": "Pladis annual revenue exceeds £3.3bn while commodity inflation weighs on profits",
+   "companies": [
+    "Pladis"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "Pladis Global reported its annual financial results for the year ended December 31, 2025, showing a 1.2% year-on-year increase in total sales to £3.3bn (€3.8bn). Despite the revenue growth, the company experienced declines in profitability. EBITDA decreased by 4.2% from £494.5m to £473.7m, while operating profit dropped 12.4% from £344.4m to £301.6m.",
+    "The multinational food manufacturer attributed the profit reductions to commodity inflation, currency volatility, and broader macroeconomic headwinds across the industry. Despite these cost pressures, branded products generated 90% of the company's total turnover. Key flagship brands such as McVitie’s, Flipz, and Godiva helped maintain consumer sales at premium price points.",
+    "Operating in more than 110 countries, Pladis focused on deepening its presence in both established and emerging markets during 2025. To support long-term growth, the company invested £100.5m in capital expenditure to enhance capacity, productivity, efficiency, and resilience across its manufacturing network."
+   ],
+   "sources": [
+    {
+     "name": "FoodNavigator",
+     "url": "https://www.foodnavigator.com/Article/2026/09/29/pladis-sales-top-33bn-but-profits-take-a-hit/",
+     "date": "2026-09-29T07:55:00+00:00"
+    }
+   ],
+   "image": "https://www.foodnavigator.com/resizer/v2/MH6AVUSGYJEV7C3ZB325DLVJCA.jpg?auth=0419b9464636887634a7319b7791156bb5f2ff1a52c566b9b3d37b31e215c661&amp;width=1200&amp;height=630&amp;smart=true",
+   "first_seen": "2026-09-29T07:55:00+00:00",
+   "updated": "2026-09-29T07:55:00+00:00",
+   "matched": "Pladis named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "2332266823",
+   "title": "pladis opens applications to second year of Global Accelerator Programme",
+   "companies": [
+    "Pladis"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Sustainability",
+    "ESG"
+   ],
+   "materials": [
+    "Cocoa"
+   ],
+   "summary": [
+    "pladis, the parent company of brands such as McVitie’s, GODIVA, and Ülker, has launched the second year of its Global Accelerator Programme. The global search invites food-technology start-ups to submit solutions aimed at improving snack nutrition and ingredient resilience while preserving product flavor and texture.",
+    "The initiative addresses industry pressures, including changing consumer eating habits driven by GLP-1 medicines, climate impacts on ingredient supplies, and rising nutritional expectations. Selected participants will explore innovations in areas such as gut health, functional ingredients, personalized nutrition, enzymatic processing, fermentation, sensory science, and natural alternatives to additives. Up to 12 start-ups will receive technical and operational guidance from pladis experts, with three to six start-ups potentially advancing to pilot or co-development opportunities.",
+    "The initial year of the accelerator received around 300 applications from five continents and selected 12 finalists, leading to six proof-of-concept collaborations. Previous participants included Zya, which developed an enzyme to convert sugar into fiber post-consumption; Fermtech, which uses food-industry by-products to create cocoa alternatives through fermentation; and Nuritas, which utilizes artificial intelligence and genomics to isolate bioactive plant peptides. Applications for the second cohort run from November 3, 2026, to January 15, 2027, with selected start-ups announced in early March."
+   ],
+   "sources": [
+    {
+     "name": "Retail Times",
+     "url": "https://retailtimes.co.uk/pladis-opens-applications-to-second-year-of-global-accelerator-programme/",
+     "date": "2026-11-03T02:59:00+00:00"
+    }
+   ],
+   "image": "https://retailtimes.co.uk/wp-content/uploads/2026/11/Biscuit-on-the-line.jpg",
+   "first_seen": "2026-11-03T02:59:00+00:00",
+   "updated": "2026-11-03T02:59:00+00:00",
+   "matched": "Pladis named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "9086492185",
+   "title": "Reckitt Cuts Annual Sales Forecast Following Lysol Supply Disruptions",
+   "companies": [
+    "Reckitt"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "Reckitt lowered its annual core sales-growth forecast on October 27, 2026, due to manufacturing constraints that disrupted Lysol product supplies in North America. Following the update, Reckitt shares fell 7.1% in early trading as quarterly growth missed the 3.6% expectation from a company-compiled analyst poll. Chief Executive Kris Licht stated that while consumer demand for Lysol remained strong, the temporary manufacturing issues prevented the company from fully satisfying order volumes.",
+    "The company also cited slower growth within China's vitamins, minerals, and supplements category as a factor impacting performance. Conversely, emerging-market like-for-like revenue expanded by 8%, while Europe returned to growth at 0.8%. Reckitt's management expects North America and Lysol performance to rebound in the fourth quarter as the manufacturing problems are resolved.",
+    "To support its operations, Reckitt highlighted a multi-year U.S. investment of up to $600 million announced in September, which aims to strengthen regional supply resilience, accelerate innovation, and expand healthcare product access. The lowered outlook reverses the stance from Reckitt's July half-year report, which had retained annual growth targets supported by a 4.2% core like-for-like second-quarter growth rate."
+   ],
+   "sources": [
+    {
+     "name": "FINCHANNEL",
+     "url": "https://finchannel.com/reckitt-shares-fall-after-lysol-disruption-prompts-outlook-cut/139597/american-business-trends/2026/10/",
+     "date": "2026-10-27T02:01:00+00:00"
+    }
+   ],
+   "image": "https://finchannel.com/wp-content/uploads/2026/10/Reckitt-shares-.png",
+   "first_seen": "2026-10-27T02:01:00+00:00",
+   "updated": "2026-10-27T02:01:00+00:00",
+   "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "7862066943",
+   "title": "Reckitt Completes Divestment of Russia Hygiene Business to Arnest Management",
+   "companies": [
+    "Reckitt"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "Reckitt Benckiser Group plc has announced the completion of the divestment of its Russia Hygiene business to Arnest Management LLC. The transaction follows a previous announcement made on 24 July 2026 and comes after receiving all required approvals.",
+    "As a result of the sale, the Russia Hygiene business will now be excluded from Reckitt's Like-for-Like (LFL) Net Revenue growth calculations, adhering to the group's Alternative Performance Measure policies for disposals completed during the year. Following this adjustment, restated LFL Net Revenue growth for Q3 2026 was reported at 9.8% for Emerging Markets, 3.9% for Core Reckitt, and 3.8% for Core Reckitt + MJN. For Q3 YTD 2026, restated LFL Net Revenue growth stood at 10.2% for Emerging Markets, 3.5% for Core Reckitt, and 3.4% for Core Reckitt + MJN.",
+    "Reckitt stated that the divestment is not expected to have any material impact on its delivery of Group Adjusted Operating Profit or Adjusted EPS for 2026. Reckitt is a global consumer health and hygiene company operating in over 80 countries, employing around 36,000 people worldwide."
+   ],
+   "sources": [
+    {
+     "name": "MarketScreener",
+     "url": "https://www.marketscreener.com/news/reckitt-benckiser-completion-of-russia-hygiene-business-divestment-ce785ed8dd8ff725",
+     "date": "2026-11-12T03:36:00+00:00"
+    }
+   ],
+   "image": "https://cdn.zonebourse.com/static/web-assets/images/editorial/fallback/twitter_ms_fdblanc.png",
+   "first_seen": "2026-11-12T03:36:00+00:00",
+   "updated": "2026-11-12T03:36:00+00:00",
+   "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "1318643815",
+   "title": "Reckitt Benckiser stock holds steady as investors focus on recent earnings and valuation",
+   "companies": [
+    "Reckitt"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "As of September 20, 2026, Reckitt Benckiser stock traded on the London Stock Exchange while investors evaluated the consumer goods group's recent earnings performance and current valuation.",
+    "The company's financial fundamentals and market metrics are currently framing its risk-reward profile for market participants.",
+    "The publication was released under corporate news updates concerning Reckitt Benckiser (ISIN: GB00B24CGK77) by Editor-in-Chief Rafael Müller."
+   ],
+   "sources": [
+    {
+     "name": "ad-hoc-news",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/reckitt-benckiser-stock-holds-steady-as-investors-focus-on-recent-earnings-and-valuation/70138318",
+     "date": "2026-09-20T09:56:00+00:00"
+    }
+   ],
+   "image": "https://mdb.ad-hoc-news.de/bild/bild-2701464_1200_675.webp",
+   "first_seen": "2026-09-20T09:56:00+00:00",
+   "updated": "2026-09-20T09:56:00+00:00",
+   "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
   }
  ]
 }
