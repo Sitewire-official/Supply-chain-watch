@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T16:53:18.090721+00:00",
+ "updated": "2026-11-23T07:18:14.533939+00:00",
  "stories": [
   {
    "id": "8849709829",
@@ -459,6 +459,89 @@
    "image": "https://mdb.ad-hoc-news.de/bild/bild-2701464_1200_675.webp",
    "first_seen": "2026-09-20T09:56:00+00:00",
    "updated": "2026-09-20T09:56:00+00:00",
+   "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "5652899112",
+   "title": "Reckitt shares tumble after lowering revenue outlook as Q3 sales miss",
+   "companies": [
+    "Reckitt"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "Reckitt saw its shares drop more than 6% on Tuesday after lowering its 2026 revenue growth guidance and reporting third-quarter sales that fell short of analyst forecasts. The company's performance in North America was constrained by manufacturing issues affecting Lysol.",
+    "Like-for-like net revenue in the Core Reckitt business grew 3.3% during the third quarter to reach £2.69 billion. This missed the 3.6% growth expected by analysts in a company-compiled poll. Excluding its Russia hygiene business, which the company is selling, growth stood at 3.9% for the quarter and 2.9% for the first nine months. Price and mix added 3.2% to growth, while volume grew by 0.1%.",
+    "Following the third-quarter results, Reckitt lowered its full-year revenue growth forecast to between 3.5% and 4.5%, down from its previous guidance of 4% to 5%. Analysts at Jefferies noted that the volume-led miss in core like-for-like revenue and the reduced full-year outlook due to new one-off factors would disappoint investors and cause the company to underperform its peers."
+   ],
+   "sources": [
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/reckitt-lowers-annual-revenue-forecast-080741701.html",
+     "date": "2026-10-27T01:08:00+00:00"
+    }
+   ],
+   "image": "https://s.yimg.com/lo/mysterio/api/150afeec82b96c8edfb05d7e98a23e7e5f1e6917dc328e2c1a7c8ecc4d4736fe/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fcv%2Fapiv2%2Fsocial%2Fimages%2Fyahoo_default_logo-1200x1200.png",
+   "first_seen": "2026-10-27T01:08:00+00:00",
+   "updated": "2026-10-27T01:08:00+00:00",
+   "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "5489545952",
+   "title": "Reckitt Stock Valuation Analyzed Based on Cash Flow and Performance",
+   "companies": [
+    "Reckitt"
+   ],
+   "categories": [
+    "Business & Commercial"
+   ],
+   "materials": [],
+   "summary": [
+    "Reckitt Benckiser Group has delivered a 23.2% return over the past three years, bringing its share price to approximately £57.78. This historical return has raised questions regarding whether the company's current market price aligns with its underlying cash generation profile.",
+    "The business model depends heavily on converting sales from its branded household and consumer health categories into reliable free cash flow. This cash generation capability is central to evaluating the company's intrinsic value under a Discounted Cash Flow (DCF) model.",
+    "In addition to cash flow metrics, Reckitt Benckiser Group holds a price-to-earnings (P/E) ratio of 12.7x. Investors and market observers evaluate whether these earnings and cash flow indicators fairly justify the stock's valuation."
+   ],
+   "sources": [
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/reckitt-lse-rkt-stock-may-211342398.html",
+     "date": "2026-11-16T13:12:00+00:00"
+    }
+   ],
+   "image": "https://s.yimg.com/lo/mysterio/api/85e1e6b2349d9da171fb876541b671b7be5ec5eba232577fffebd1dd343da755/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F6dd82f9f28ca8f6190c04e463dfc3490.jpg",
+   "first_seen": "2026-11-16T13:12:00+00:00",
+   "updated": "2026-11-16T13:12:00+00:00",
+   "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "6333802524",
+   "title": "Reckitt shares slump 6% as sales growth outlook trimmed - UPDATE",
+   "companies": [
+    "Reckitt"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "Reckitt Benckiser Group PLC shares fell approximately 6% to 5,161p after the consumer goods group lowered its 2026 sales growth outlook following weaker trading in North America. The company now projects full-year Core Reckitt like-for-like revenue growth to be between 4% and 5%.",
+    "In the third quarter, Core Reckitt reported like-for-like revenue growth of 3%, which rose to 4% when excluding its Russia hygiene business. Emerging Markets was the company's best-performing region with an 8% revenue increase, driven by double-digit growth in India, Southeast Asia, and Africa. Europe saw a 1% revenue increase supported by brands such as Gaviscon, Vanish, Veet, Finish, and Durex, while Mead Johnson Nutrition posted 3% like-for-like growth.",
+    "North American revenue declined 1% during the third quarter as temporary manufacturing capacity constraints hindered Reckitt from fully meeting high demand for Lysol. The company expects both Lysol and its broader North American division to rebound in the fourth quarter as these constraints are resolved."
+   ],
+   "sources": [
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/reckitt-trims-sales-growth-outlook-072800344.html",
+     "date": "2026-10-27T00:28:00+00:00"
+    }
+   ],
+   "image": "https://s.yimg.com/lo/mysterio/api/dcc60988ce1af453ef5681569d9f1fb4711934f9843a0a3757863dc8bbf8417d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fproactive_us_504%2Fdf5922ccfb4c06df806e0c524dddce66.jpg",
+   "first_seen": "2026-10-27T00:28:00+00:00",
+   "updated": "2026-10-27T00:28:00+00:00",
    "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
   }
  ]
