@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T07:18:14.533939+00:00",
+ "updated": "2026-11-24T07:00:06.661104+00:00",
  "stories": [
   {
    "id": "8849709829",
@@ -542,6 +542,62 @@
    "image": "https://s.yimg.com/lo/mysterio/api/dcc60988ce1af453ef5681569d9f1fb4711934f9843a0a3757863dc8bbf8417d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fproactive_us_504%2Fdf5922ccfb4c06df806e0c524dddce66.jpg",
    "first_seen": "2026-10-27T00:28:00+00:00",
    "updated": "2026-10-27T00:28:00+00:00",
+   "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "7829776316",
+   "title": "Packaging Happenings: McVitie’s China, Aussie labels and mini drinks",
+   "companies": [
+    "Pladis"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Sustainability"
+   ],
+   "materials": [],
+   "summary": [
+    "Global bakery brand McVitie's is expanding its presence in the Chinese consumer market by shifting beyond its traditional biscuit portfolio. To support its growth in China, the brand is developing localized innovations, including region-specific snacks, customized flavors, and tailored packaging formats.",
+    "Elsewhere in the food and beverage sector, Food Standards Australia New Zealand (FSANZ) is consulting on proposed updates to food labeling regulations following inquiries into misleading labels and food fraud. The proposed changes under review include mandatory Health Star Ratings and a single annual commencement date for future labeling adjustments. Simultaneously, drink manufacturers are downsizing packaging formats to offer concentrated wellness shots and smaller alcoholic serves.",
+    "Industry packaging strategies are also evolving alongside expanding Extended Producer Responsibility (EPR) programs, climate disclosures, and heightened sustainability expectations. Concurrently, rising consumer scrutiny over ultra-processed ingredients has prompted plant-based beverage brands like Planet Oat to introduce simplified formulations featuring fewer ingredients."
+   ],
+   "sources": [
+    {
+     "name": "FoodNavigator",
+     "url": "https://www.foodnavigator.com/Article/2026/10/23/packaging-happenings-mcvities-china-aussie-labels-and-mini-drinks/",
+     "date": "2026-10-22T23:00:00+00:00"
+    }
+   ],
+   "image": "https://www.foodnavigator.com/resizer/v2/JW4RCN2GUJNPXAJQ6LKO7WURWQ.jpg?auth=7385254b730d803bc32131a90b5489a4ad91a71f112d86cec934181de505545d&amp;width=1200&amp;height=630&amp;smart=true",
+   "first_seen": "2026-10-22T23:00:00+00:00",
+   "updated": "2026-10-22T23:00:00+00:00",
+   "matched": "Pladis named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "2273723684",
+   "title": "J.P. Morgan and Barclays Issue Positive Reports on Reckitt",
+   "companies": [
+    "Reckitt"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "J.P. Morgan analyst Celine Pannuti CFA has upgraded Reckitt to a Buy rating with a price target set at £65.00. TipRanks notes that Pannuti has an average return of -1.7% and a 40.65% success rate. In a simultaneous report, Barclays maintained its Buy rating on Reckitt stock with a price target of £58.00.",
+    "Reckitt's latest financial disclosure for the quarter ending June 30 reported quarterly revenue of p6.41 billion alongside a net profit of p652 million. In the corresponding quarter of the previous year, the company had recorded p6.98 billion in revenue and p958 million in net profit.",
+    "Tracking of corporate insider activity involving 29 insiders reveals positive sentiment for the stock. Over the past quarter, insider purchases of Reckitt shares increased compared to insider buying levels recorded earlier in the year."
+   ],
+   "sources": [
+    {
+     "name": "The Globe and Mail",
+     "url": "https://www.theglobeandmail.com/investing/markets/stocks/RBGLY/pressreleases/4393139/positive-report-for-reckitt-rkt-from-j-p-morgan/",
+     "date": "2026-09-04T18:44:00+00:00"
+    }
+   ],
+   "image": null,
+   "first_seen": "2026-09-04T18:44:00+00:00",
+   "updated": "2026-09-04T18:44:00+00:00",
    "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
   }
  ]
