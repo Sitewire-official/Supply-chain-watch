@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:00:06.661104+00:00",
+ "updated": "2026-11-25T07:04:08.427116+00:00",
  "stories": [
   {
    "id": "8849709829",
@@ -598,6 +598,33 @@
    "image": null,
    "first_seen": "2026-09-04T18:44:00+00:00",
    "updated": "2026-09-04T18:44:00+00:00",
+   "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "5038624140",
+   "title": "Ogilvy appointed as global agency of record for Reckitt's Veet brand",
+   "companies": [
+    "Reckitt"
+   ],
+   "categories": [
+    "Business & Commercial"
+   ],
+   "materials": [],
+   "summary": [
+    "Reckitt-owned hair removal brand Veet has appointed Ogilvy as its global agency of record following a competitive pitch managed directly by Reckitt without the involvement of an advisor. The account will be handled by Ogilvy UK. This decision ends a long-standing relationship with Havas, which had reportedly managed the creative account for nearly two decades. The shift follows the departure of Elliot Harris, Executive Creative Director of Havas's Reckitt portfolio.",
+    "Under the new mandate, Ogilvy will act as Veet's strategic partner across advertising, social, and influence. The brief is intended to connect the brand with the next generation of consumers entering the category, while leveraging its existing leadership positions in core markets to spur growth.",
+    "The agency transition comes after WPP Media assumed management of Reckitt's media budget across most markets in November of last year, a development noted by industry commentary as a potential factor in the pitch result. The assignment adds a significant global mandate to Ogilvy, which has been expanding its UK influence team and was named the most awarded agency at the Global Influencer Marketing Awards in 2025."
+   ],
+   "sources": [
+    {
+     "name": "exchange4media",
+     "url": "https://www.exchange4media.com/advertising-news/ogilvy-wins-reckitts-veet-will-lead-global-creative-social-and-influence-160658.html",
+     "date": "2026-11-24T10:57:00+00:00"
+    }
+   ],
+   "image": "https://www.exchange4media.com/news-photo/160658-ReckittxOgilvyUK.jpg",
+   "first_seen": "2026-11-24T10:57:00+00:00",
+   "updated": "2026-11-24T10:57:00+00:00",
    "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
   }
  ]
