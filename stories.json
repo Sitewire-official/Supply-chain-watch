@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:04:08.427116+00:00",
+ "updated": "2026-11-26T07:02:08.531816+00:00",
  "stories": [
   {
    "id": "8849709829",
@@ -625,6 +625,62 @@
    "image": "https://www.exchange4media.com/news-photo/160658-ReckittxOgilvyUK.jpg",
    "first_seen": "2026-11-24T10:57:00+00:00",
    "updated": "2026-11-24T10:57:00+00:00",
+   "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "4414090261",
+   "title": "Unilever, BAT and Reckitt named among JPMorgan's top consumer staples picks for 2027",
+   "companies": [
+    "Reckitt"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "JPMorgan has named Reckitt Benckiser Group PLC, Unilever PLC, and British American Tobacco PLC among its top European consumer staples picks for 2027. The investment bank highlighted these companies for their potential to deliver earnings growth despite rising cost pressures.",
+    "The bank expects the broader European consumer staples sector to encounter a more challenging operating environment in 2027 due to muted demand across Europe and the US, inconsistent growth in emerging markets, and elevated cost inflation. With companies expected to restrain price increases to preserve product affordability, performance will rely heavily on volume growth and operational savings. Sector-wide earnings per share (EPS) growth for food, household, and personal care businesses is forecast at 6% to 7%.",
+    "Reckitt and Unilever are listed among JPMorgan's eight preferred stocks for 2027, which also include Nestlé, Puig, Kerry Group, Danone, and Carlsberg. While JPMorgan noted that recent price gains make the sector less attractive on valuation—trading at 19 times forward earnings versus a long-term average of 18 times—it expects investors to maintain a defensive stance toward the sector amid ongoing macroeconomic volatility."
+   ],
+   "sources": [
+    {
+     "name": "Yahoo Finance UK",
+     "url": "https://uk.finance.yahoo.com/news/unilever-bat-reckitt-named-among-133000173.html",
+     "date": "2026-11-25T00:30:00+00:00"
+    }
+   ],
+   "image": "https://s.yimg.com/lo/mysterio/api/b7823ca2d3f92fa8a47813a652e08a6b740b1b2214bf0b9d807316b8824c69f5/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fproactive_uk_164%2F724232ec8e5a64ce40d5c2c7249baae1.jpg",
+   "first_seen": "2026-11-25T00:30:00+00:00",
+   "updated": "2026-11-25T00:30:00+00:00",
+   "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "4422706223",
+   "title": "Tech meltdown sparks flight to defensive stocks as Unilever, Reckitt and Diageo rally",
+   "companies": [
+    "Reckitt"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "Investors shifted capital into defensive UK equities following a global technology sell-off, driving share price gains for established consumer businesses. The market movement was triggered by valuation concerns surrounding artificial intelligence investments, leading to heavy losses across major Asian markets and overnight declines on Wall Street.",
+    "Amid the broader market volatility, household products group Reckitt Benckiser Group PLC saw its shares rise by 1.86% to 5,815p. Peer consumer goods companies also logged gains, with Unilever PLC advancing 1.92% to 5,050p and drinks maker Diageo PLC rising 1.83% to 1,944.5p. Retailers including Kingfisher PLC and J Sainsbury PLC similarly benefited from the sector rotation.",
+    "The market shift reflected investor preference for companies with established brands and resilient consumer demand for everyday household items, food, and beverages during periods of market uncertainty. This buying activity provided support to the FTSE 100, helping it advance in early London trading despite significant downturns in international tech indices such as the Nasdaq Composite, Taiwan's Taiex, and South Korea's Kospi."
+   ],
+   "sources": [
+    {
+     "name": "Yahoo Finance UK",
+     "url": "https://uk.finance.yahoo.com/news/tech-meltdown-sparks-flight-defensive-090400541.html",
+     "date": "2026-11-24T17:04:00+00:00"
+    }
+   ],
+   "image": "https://s.yimg.com/lo/mysterio/api/5e11d38c1588d18daacefcd3ae12ee7e08b015cccb98331ab4bcfcc7e9936766/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fproactive_uk_164%2F54bc8c13afb64e4e08bdd6bd6ad5b348.jpg",
+   "first_seen": "2026-11-24T17:04:00+00:00",
+   "updated": "2026-11-24T17:04:00+00:00",
    "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
   }
  ]
