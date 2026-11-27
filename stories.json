@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T07:02:08.531816+00:00",
+ "updated": "2026-11-27T07:04:12.633599+00:00",
  "stories": [
   {
    "id": "8849709829",
@@ -681,6 +681,62 @@
    "image": "https://s.yimg.com/lo/mysterio/api/5e11d38c1588d18daacefcd3ae12ee7e08b015cccb98331ab4bcfcc7e9936766/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fproactive_uk_164%2F54bc8c13afb64e4e08bdd6bd6ad5b348.jpg",
    "first_seen": "2026-11-24T17:04:00+00:00",
    "updated": "2026-11-24T17:04:00+00:00",
+   "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "5456325859",
+   "title": "Pladis’ R&D boss puts Christmas nostalgia to work",
+   "companies": [
+    "Pladis"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "Pladis is leveraging festive nostalgia to encourage consumers to purchase new holiday items alongside their traditional Christmas biscuit favorites. Under the direction of R&D Vice President Taryn-Lisa Mollé-McConnell, the company's Christmas innovation strategy includes expanding brands such as McVitie’s Penguin and Jaffa Cakes into seasonal chocolate confectionery aimed at stocking fillers and individual treats.",
+    "To strengthen the operational foundation behind these product innovations, Pladis is carrying out a £68 million investment programme across six UK sites. The capital expenditure supports process engineering and manufacturing capabilities across its portfolio, including brands such as McVitie’s, Jacob’s, and Carr’s.",
+    "The drive to incentivize consumer spending on branded goods comes as Pladis faces profit declines. London-headquartered Pladis Foods Limited, formed in January 2016 under parent company Yıldız Holding, recorded a 1.2% rise in revenue to £3.272 billion in 2025. However, operating profit fell 12.4% to £301.6 million due to commodity inflation, currency volatility, and broader economic pressures. Branded products account for approximately 90% of the company's total revenue."
+   ],
+   "sources": [
+    {
+     "name": "Bakery and Snacks",
+     "url": "https://www.bakeryandsnacks.com/Article/2026/11/26/how-pladis-rd-chief-develops-christmas-snack-innovation/",
+     "date": "2026-11-26T08:41:00+00:00"
+    }
+   ],
+   "image": "https://www.bakeryandsnacks.com/resizer/v2/DWJVF2HFYJH55O3HRP2L22CMW4.jpg?auth=b193ff0ceeeb65bcd59e76c956cf57072ef113e27114973aa479510fce0df20d&amp;width=1200&amp;height=630&amp;smart=true",
+   "first_seen": "2026-11-26T08:41:00+00:00",
+   "updated": "2026-11-26T08:41:00+00:00",
+   "matched": "Pladis named in headline or opening paragraphs; topic keywords found"
+  },
+  {
+   "id": "4658344054",
+   "title": "Barclays Reaffirms Buy Rating for Reckitt",
+   "companies": [
+    "Reckitt"
+   ],
+   "categories": [
+    "Business & Commercial",
+    "Economic"
+   ],
+   "materials": [],
+   "summary": [
+    "Barclays analyst Warren Ackerman has maintained a Buy rating on Reckitt (RKT) with a price target of £63.00. Across the broader market, the analyst consensus on Reckitt stands at a Moderate Buy, with an average price target of p6,314.20.",
+    "The rating follows Reckitt's earnings report for the quarter ending June 30, in which the company recorded quarterly revenue of p6.41 billion and a net profit of p652 million. This represents a decline from the same period last year, when the company reported revenue of p6.98 billion and a net profit of p958 million.",
+    "Additionally, corporate insider sentiment for the company remains positive based on activity among 27 insiders. Over the past quarter, corporate insiders increased their share purchases of RKT compared to activity recorded earlier in the year."
+   ],
+   "sources": [
+    {
+     "name": "The Globe and Mail",
+     "url": "https://www.theglobeandmail.com/investing/markets/stocks/RBGLY/pressreleases/8890344/barclays-sticks-to-their-buy-rating-for-reckitt-rkt/",
+     "date": "2026-11-17T23:31:00+00:00"
+    }
+   ],
+   "image": null,
+   "first_seen": "2026-11-17T23:31:00+00:00",
+   "updated": "2026-11-17T23:31:00+00:00",
    "matched": "Reckitt named in headline or opening paragraphs; topic keywords found"
   }
  ]
